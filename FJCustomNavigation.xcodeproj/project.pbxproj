@@ -15,6 +15,10 @@
 		75220130153C7F17007EA5D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7522012F153C7F17007EA5D1 /* AppDelegate.m */; };
 		75220133153C7F17007EA5D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75220132153C7F17007EA5D1 /* ViewController.m */; };
 		75220136153C7F17007EA5D1 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75220134153C7F17007EA5D1 /* ViewController.xib */; };
+		75490883153D0B6500328021 /* FJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7549087C153D0B6500328021 /* FJBaseViewController.m */; };
+		75490884153D0B6500328021 /* FJNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7549087E153D0B6500328021 /* FJNavigationBar.m */; };
+		75490885153D0B6500328021 /* FJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75490880153D0B6500328021 /* FJNavigationController.m */; };
+		75490886153D0B6500328021 /* FJTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75490882153D0B6500328021 /* FJTabBarController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +26,23 @@
 		7522011F153C7F17007EA5D1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		75220121153C7F17007EA5D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		75220123153C7F17007EA5D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		75220127153C7F17007EA5D1 /* FJCustomNavigation-Info.plist */ = {isa = PBXFileReference; path = "FJCustomNavigation-Info.plist"; sourceTree = "<group>"; };
+		75220127153C7F17007EA5D1 /* FJCustomNavigation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FJCustomNavigation-Info.plist"; sourceTree = "<group>"; };
 		75220129153C7F17007EA5D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7522012B153C7F17007EA5D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		7522012D153C7F17007EA5D1 /* FJCustomNavigation-Prefix.pch */ = {isa = PBXFileReference; path = "FJCustomNavigation-Prefix.pch"; sourceTree = "<group>"; };
-		7522012E153C7F17007EA5D1 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		7522012D153C7F17007EA5D1 /* FJCustomNavigation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FJCustomNavigation-Prefix.pch"; sourceTree = "<group>"; };
+		7522012E153C7F17007EA5D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7522012F153C7F17007EA5D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		75220131153C7F17007EA5D1 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		75220131153C7F17007EA5D1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		75220132153C7F17007EA5D1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		75220135153C7F17007EA5D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		7549087B153D0B6500328021 /* FJBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJBaseViewController.h; sourceTree = "<group>"; };
+		7549087C153D0B6500328021 /* FJBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJBaseViewController.m; sourceTree = "<group>"; };
+		7549087D153D0B6500328021 /* FJNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJNavigationBar.h; sourceTree = "<group>"; };
+		7549087E153D0B6500328021 /* FJNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJNavigationBar.m; sourceTree = "<group>"; };
+		7549087F153D0B6500328021 /* FJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJNavigationController.h; sourceTree = "<group>"; };
+		75490880153D0B6500328021 /* FJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJNavigationController.m; sourceTree = "<group>"; };
+		75490881153D0B6500328021 /* FJTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FJTabBarController.h; sourceTree = "<group>"; };
+		75490882153D0B6500328021 /* FJTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FJTabBarController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,7 @@
 		75220125153C7F17007EA5D1 /* FJCustomNavigation */ = {
 			isa = PBXGroup;
 			children = (
+				75490879153D0B6500328021 /* code */,
 				7522012E153C7F17007EA5D1 /* AppDelegate.h */,
 				7522012F153C7F17007EA5D1 /* AppDelegate.m */,
 				75220131153C7F17007EA5D1 /* ViewController.h */,
@@ -96,6 +109,29 @@
 				7522012D153C7F17007EA5D1 /* FJCustomNavigation-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75490879153D0B6500328021 /* code */ = {
+			isa = PBXGroup;
+			children = (
+				7549087A153D0B6500328021 /* FJCustomNavigation */,
+			);
+			path = code;
+			sourceTree = "<group>";
+		};
+		7549087A153D0B6500328021 /* FJCustomNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				7549087B153D0B6500328021 /* FJBaseViewController.h */,
+				7549087C153D0B6500328021 /* FJBaseViewController.m */,
+				7549087D153D0B6500328021 /* FJNavigationBar.h */,
+				7549087E153D0B6500328021 /* FJNavigationBar.m */,
+				7549087F153D0B6500328021 /* FJNavigationController.h */,
+				75490880153D0B6500328021 /* FJNavigationController.m */,
+				75490881153D0B6500328021 /* FJTabBarController.h */,
+				75490882153D0B6500328021 /* FJTabBarController.m */,
+			);
+			path = FJCustomNavigation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +199,10 @@
 				7522012C153C7F17007EA5D1 /* main.m in Sources */,
 				75220130153C7F17007EA5D1 /* AppDelegate.m in Sources */,
 				75220133153C7F17007EA5D1 /* ViewController.m in Sources */,
+				75490883153D0B6500328021 /* FJBaseViewController.m in Sources */,
+				75490884153D0B6500328021 /* FJNavigationBar.m in Sources */,
+				75490885153D0B6500328021 /* FJNavigationController.m in Sources */,
+				75490886153D0B6500328021 /* FJTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +312,7 @@
 				7522013B153C7F17007EA5D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
